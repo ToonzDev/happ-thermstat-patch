@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+
+# Temporary patch work files, backups and binary outputs
+toon_patch_work/
+binaries/
+*.bin
+*.patched
+*.stock
+*.stock-backup
+*.zip
+
+# Operating system / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
