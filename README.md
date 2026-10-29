@@ -18,7 +18,7 @@ Check whether you could use the fix:
 
 ## Impact of the fix
 
-Two data logger for Warmtepompen will be sacrificed in favour of the boiler temperatures data sets.
+Two data loggers for Warmtepompen will be sacrificed in favour of the boiler temperatures data sets.
 (`ventilationHeatRecoveryDev.ActiveElectricityHours` and `...CurrentState`)
 If you ever in the future install a warmtepomp, you can simply revert back to the stock happ_thermstat module
 which is kept on your Toon.
