@@ -6,6 +6,7 @@ __pycache__/
 # Temporary patch work files, backups and binary outputs
 toon_patch_work/
 binaries/
+tools-dev/
 *.bin
 *.patched
 *.stock
