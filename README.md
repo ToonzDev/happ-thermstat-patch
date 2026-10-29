@@ -1,5 +1,13 @@
 # Restoring boiler flow/return temperature logging on a rooted Toon using OpenTherm protocol to boiler
 
+> [!CAUTION]
+> ### ⚠️ Important Warning: Device-Specific Binary
+> **The patched `happ_thermstat` module will only work properly on that specific Toon because as part of the process, the device-uuid of your Toon is put into the binary.**
+> 
+> **If you have multiple Toons, repeat this process for each Toon. Never copy the patched binary to other Toons.**
+> 
+> *This script has been repeatedly successfully tested on different Toon 1 and Toon 2 thermostats on multiple firmware versions.*
+
 ## What this fixes
 
 Newer `happ_thermstat` builds stopped logging the boiler water temperatures, so
@@ -66,13 +74,6 @@ to check whether real values are appended at the end.
 
 A long archive is created too at the same URL with `&rra=year` holding hourly averages for a year.
 
-> [!CAUTION]
-> ### ⚠️ Important Warning: Device-Specific Binary
-> **The patched `happ_thermstat` module will only work properly on that specific Toon because as part of the process, the device-uuid of your Toon is put into the binary.**
-> 
-> **If you have multiple Toons, repeat this process for each Toon. Never copy the patched binary to other Toons.**
-> 
-> *This script has been repeatedly successfully tested on different Toon 1 and Toon 2 thermostats on multiple firmware versions.*
 
 ## If something goes wrong you can revert back to stock happ_thermstat
 
